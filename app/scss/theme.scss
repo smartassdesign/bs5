@@ -9,3 +9,64 @@
 // .btn-primary {
 // 	background: yellow;
 // }
+
+
+
+// MIXINS
+
+%cardboard {
+	background: url(/assets/images/texture-fullsize-01.jpg); 
+	background-repeat: repeat-y;
+	background-size: cover;	
+}
+
+
+
+
+// POSTS PAGE
+
+.cardboard {
+	@extend %cardboard;	
+}
+
+
+// .card-bg {
+// 	@extend %cardboard;
+// 	padding: 20px;
+// 	width: 100%;
+
+// }
+
+// .card-block {
+// 	z-index: 5;
+// 	background: #fff;
+// }
+
+
+// .card {
+// 	z-index: 1;
+// }
+
+// .card:before, .card:after {
+//     content: '';
+//     z-index: 1;
+//     position: absolute;
+//     bottom: 12px;
+//     width: 70%;
+//     max-width: 300px;
+//     max-height: 100px;
+//     height: 55%;
+//     box-shadow: 0 8px 8px rgba(0, 0, 0, 0.3);
+//     visibility: visible;
+// }
+
+// .card:before {
+//     left: 40px;
+//     transform: skew(-15deg) rotate(-4deg);
+// }
+
+// .card:after {
+//     right: 40px;
+//     transform: skew(15deg) rotate(4deg);
+
+// }

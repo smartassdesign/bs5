@@ -3970,7 +3970,7 @@ input[type="button"].btn-block {
   position: relative;
   margin-bottom: 0.75rem;
   background-color: #fff;
-  border: 0.0625rem solid #e5e5e5;
+  border: 0 solid transparent;
 }
 
 .card-block {
@@ -4001,13 +4001,13 @@ input[type="button"].btn-block {
 .card-header {
   padding: 0.75rem 1.25rem;
   background-color: #f5f5f5;
-  border-bottom: 0.0625rem solid #e5e5e5;
+  border-bottom: 0 solid transparent;
 }
 
 .card-footer {
   padding: 0.75rem 1.25rem;
   background-color: #f5f5f5;
-  border-top: 0.0625rem solid #e5e5e5;
+  border-top: 0 solid transparent;
 }
 
 .card-primary {
@@ -6208,4 +6208,10 @@ a.bg-danger:hover {
   .hidden-print .hidden-print {
     display: none !important;
   }
+}
+
+.cardboard {
+  background: url(/assets/images/texture-fullsize-01.jpg);
+  background-repeat: repeat-y;
+  background-size: cover;
 }
